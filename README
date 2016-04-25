@@ -1,0 +1,10 @@
+Little node.js project to monitor our company's bbs and send mail if specific
+predication is passed.
+
+Instructions:
+git clone [this project]
+npm install
+cp config.example.js config.js
+# edit config.js for your email and predication settings
+nohup node . 2>&1 >log &
+
